@@ -1,9 +1,11 @@
 // import Head from 'next/head'
 
+import { Heading } from '@chakra-ui/core';
+
 export default function Home() {
   return (
     <div>
-      <h1>Hello Tony</h1>
+      <Heading>Hello Tony</Heading>
     </div>
   )
 }
